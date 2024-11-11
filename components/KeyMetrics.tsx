@@ -41,7 +41,7 @@ const KeyMetrics = () => {
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.8 }}
       className="px-4 py-32 text-white glass"
-      id="about"
+      id="metrics"
     >
       <div className="container mx-auto">
         <motion.h2

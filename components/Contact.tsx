@@ -43,7 +43,7 @@ const Contact = () => {
               <p className="text-lg text-gray-300">Email</p>
               <a
                 href="mailto:hydxenonmain@gmail.com"
-                className="text-2xl lg:text-2xl font-semibold hover:text-purple-300 transition duration-300 flex items-center"
+                className="text-xl md:text-2xl font-semibold hover:text-purple-300 transition duration-300 flex items-center"
               >
                 hydxenonmain@gmail.com
               </a>

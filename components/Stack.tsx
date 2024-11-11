@@ -23,7 +23,7 @@ const Stack = () => {
   return (
     <section className="py-16 glass" id="stack">
       <div className="max-w-[1200px] mx-auto px-4 text-center">
-        <h2 className="text-5xl text-gray-200 font-bold mb-4">My Stack</h2>
+        <h2 className="text-5xl text-gray-200 font-bold mb-4">My Tech Stack</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
           {stackItems.map((item) => (
             <div
