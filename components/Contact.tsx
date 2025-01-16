@@ -45,7 +45,7 @@ const Contact = () => {
                 href="mailto:hydxenonmain@gmail.com"
                 className="text-xl md:text-2xl font-semibold hover:text-purple-300 transition duration-300 flex items-center"
               >
-                hydxenonmain@gmail.com
+                justineedwardsantos@gmail.com
               </a>
             </div>
             <div className="space-y-2">

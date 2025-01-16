@@ -68,7 +68,7 @@ const Hero = () => {
         <p className="my-6 max-w-xl md:text-lg text-center">
           Fullstack Developer looking for internship
         </p>
-        <a href="/Santos_Justine_Edward_Resume_Internship.pdf" download>
+        <a href="/Justine_Edward_Santos-resume.pdf" target="_blank">
           <motion.button
             style={{
               border,
