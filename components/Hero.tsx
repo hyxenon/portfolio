@@ -17,7 +17,6 @@ const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84F", "#DD335C"];
 
 const Hero = () => {
   const color = useMotionValue(COLORS_TOP[0]);
-
   useEffect(() => {
     animate(color, COLORS_TOP, {
       ease: "easeInOut",
@@ -25,7 +24,7 @@ const Hero = () => {
       repeat: Infinity,
       repeatType: "mirror",
     });
-  }, []);
+  }, [color]);
 
   const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #000 50%, ${color})`;
   const border = useMotionTemplate`1px solid ${color}`;

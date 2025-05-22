@@ -1,10 +1,8 @@
 "use client";
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
+import { motion } from "framer-motion";
 import { FaBuilding } from "react-icons/fa";
 import { BsCalendarDateFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
-
-const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84F", "#DD335C"];
 
 interface ExperienceItemProps {
   title: string;
@@ -91,31 +89,27 @@ const ExperienceItem = ({
 };
 
 const Experience = () => {
-  const color = useMotionValue(COLORS_TOP[0]);
-  const border = useMotionTemplate`1px solid ${color}`;
-  const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
-
   const experiences = [
     {
       title: "Information Technology Intern",
       company: "Philippine Rice Research Institute (PhilRice)",
-      date: "Feb. 2025– May. 2025",
+      date: "Feb. 2025&ndash; May. 2025",
       location: "Muñoz, Nueva Ecija (Onsite)",
       skills: "Next.js, React, MongoDB, Laravel, MySQL",
       responsibilities: [
-        "Developed a weather data visualization application that streamlines access to PAGASA's forecast data across 1,619 municipalities",
+        "Developed a weather data visualization application that streamlines access to PAGASA&apos;s forecast data across 1,619 municipalities",
         "Optimized data handling of over 16,000 daily weather records (temperature, humidity, wind, rainfall) using MongoDB",
         "Built an interactive Philippines map with Leaflet.js to visualize municipality-level weather information",
         "Implemented comprehensive historical data analysis tools with custom date range queries and export functionality",
         "Developed an admin page with configurable rule-based recommendation system for 10-day forecast data",
-        "Automated data retrieval with cron jobs to synchronize with PAGASA's bi-weekly forecast updates",
+        "Automated data retrieval with cron jobs to synchronize with PAGASA&apos;s bi-weekly forecast updates",
       ],
       year: 2025,
     },
     {
       title: "Freelance Web Developer",
       company: "Freelance",
-      date: "Jan. 2024– Feb. 2025",
+      date: "Jan. 2024&ndash; Feb. 2025",
       location: "Remote",
       skills: "Next.js, React, MongoDB, Laravel, MySQL",
       responsibilities: [
@@ -142,9 +136,8 @@ const Experience = () => {
   const years = Object.keys(experiencesByYear)
     .map(Number)
     .sort((a, b) => b - a);
-
   return (
-    <section className="relative py-24 px-4 bg-black text-gray-200">
+    <motion.section className="relative py-24 px-4 bg-black text-gray-200">
       <div className="container mx-auto max-w-5xl">
         <div className="mb-16 text-center">
           <motion.div
@@ -160,8 +153,9 @@ const Experience = () => {
               Professional Experience
             </h3>
             <p className="mt-4 max-w-xl mx-auto text-gray-400">
+              {" "}
               A chronological overview of my professional journey and the
-              impactful projects I've worked on.
+              impactful projects I&apos;ve worked on.
             </p>
           </motion.div>
         </div>
@@ -200,7 +194,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 
