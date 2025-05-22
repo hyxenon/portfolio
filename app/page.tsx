@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import KeyMetrics from "@/components/KeyMetrics";
 import Navbar from "@/components/Navbar";
@@ -11,6 +12,8 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
+      <div id="experience"></div>
+      <Experience />
       <Stack />
       {/* <LogoAnimation /> */}
       <Portfolio />

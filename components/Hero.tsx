@@ -39,7 +39,7 @@ const Hero = () => {
     >
       <div className="z-10 flex flex-col items-center">
         <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
-          Open for work
+          Available for work
         </span>
         <h1 className="text-white/40 text-4xl md:text-6xl font-black">
           Hi, I am
@@ -66,7 +66,7 @@ const Hero = () => {
         </div>
 
         <p className="my-6 max-w-xl md:text-lg text-center">
-          Fullstack Developer looking for internship
+          Fullstack Developer open to full-time opportunities
         </p>
         <a href="/Justine_Edward_Santos-resume.pdf" target="_blank">
           <motion.button

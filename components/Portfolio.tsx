@@ -13,6 +13,12 @@ import SurveyApp from "@/assets/Survey App.png";
 import survey1 from "@/assets/survey1.png";
 import survey2 from "@/assets/survey2.png";
 import survey3 from "@/assets/survey3.png";
+import pic1 from "@/assets/1.png";
+import pic2 from "@/assets/2.png";
+import pic3 from "@/assets/3.png";
+import pic4 from "@/assets/4.png";
+import pic5 from "@/assets/5.png";
+import pic6 from "@/assets/6.png";
 import GradingSystemManagement from "@/assets/Grading System Management.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -63,13 +69,21 @@ const projects = [
   {
     id: 2,
     year: 2024,
+    title: "School Management System",
+    description:
+      "Developed a comprehensive educational platform supporting 6 user roles (HR, Registrar, Treasurer, Program Head, Professor, Student) with tailored dashboards and permissions. Implemented enrollment management, academic scheduling, grade calculation system with breakdown by quarter and assessment type. Built integrated financial modules for tuition payment processing, payroll management, and miscellaneous fee tracking. Created facility management features including classroom allocation, building assignment, and faculty/department organization. Built using React, Laravel, Inertia, MySQL, and Git.",
+    images: [pic1, pic2, pic6, pic3, pic4, pic5],
+  },
+  {
+    id: 3,
+    year: 2024,
     title: "Social Media Impact Survey Web Application",
     description:
       "Developed a web application featuring a survey focused on analyzing the impact of social media on academic performance, complete with integrated analytics. The application was built using Next.js, TypeScript, MongoDB, Prisma, and Clerk for authentication.",
     images: [SurveyApp, survey1, survey2, survey3],
   },
   {
-    id: 3,
+    id: 4,
     year: 2023,
     title: "Grading System Management",
     description:
