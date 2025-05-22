@@ -93,7 +93,7 @@ const Experience = () => {
     {
       title: "Information Technology Intern",
       company: "Philippine Rice Research Institute (PhilRice)",
-      date: "Feb. 2025&ndash; May. 2025",
+      date: "Feb. 2025 - May. 2025",
       location: "Muñoz, Nueva Ecija (Onsite)",
       skills: "Next.js, React, MongoDB, Laravel, MySQL",
       responsibilities: [
@@ -109,7 +109,7 @@ const Experience = () => {
     {
       title: "Freelance Web Developer",
       company: "Freelance",
-      date: "Jan. 2024&ndash; Feb. 2025",
+      date: "Jan. 2024 - Feb. 2025",
       location: "Remote",
       skills: "Next.js, React, MongoDB, Laravel, MySQL",
       responsibilities: [
