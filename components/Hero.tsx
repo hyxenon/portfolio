@@ -1,17 +1,16 @@
 "use client";
 import {
-  motion,
   animate,
+  motion,
   useMotionTemplate,
   useMotionValue,
 } from "framer-motion";
 import Image from "next/image";
 import { useEffect } from "react";
 
-import profilePic from "@/assets/profile picture.jpg";
-import { FiArrowRight } from "react-icons/fi";
-import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FiArrowRight } from "react-icons/fi";
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84F", "#DD335C"];
 
@@ -47,10 +46,11 @@ const Hero = () => {
           Justine Edward Santos
         </h1>
         <Image
-          src={profilePic}
+          src={'/prof_picture.png'}
           alt="profile pic"
-          width={250}
-          className="rounded-full mt-1"
+          width={1000}
+          height={250}
+          className="w-64 rounded-full mt-1"
         />
         <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4 mt-1">
           <a href="https://github.com/hyxenon" target="_blank">
@@ -67,7 +67,7 @@ const Hero = () => {
         <p className="my-6 max-w-xl md:text-lg text-center">
           Fullstack Developer open to full-time opportunities
         </p>
-        <a href="/Justine_Edward_Santos-resume.pdf" target="_blank">
+        <a href="/Justine_Edward_Santos_Resume.pdf" target="_blank">
           <motion.button
             style={{
               border,

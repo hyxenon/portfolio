@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
 import { motion, useInView } from "framer-motion";
+import React from "react";
 
 const metrics = [
   {
@@ -22,12 +22,7 @@ const metrics = [
     description:
       "Committed to writing clean, efficient, and maintainable code.",
   },
-  {
-    id: 5,
-    value: "700+",
-    label: "Commits on GitHub",
-    description: "Active contributor to open-source and personal projects.",
-  },
+
 ];
 
 const KeyMetrics = () => {

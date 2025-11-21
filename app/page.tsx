@@ -12,7 +12,6 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-      <div id="experience"></div>
       <Experience />
       <Stack />
       {/* <LogoAnimation /> */}
