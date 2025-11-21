@@ -211,7 +211,7 @@ const Portfolio = () => {
 
   return (
     <motion.section
-      id="portfolio"
+      id="projects"
       className="py-32 text-white"
       style={{
         backgroundImage,
