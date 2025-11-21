@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaBuilding } from "react-icons/fa";
 import { BsCalendarDateFill } from "react-icons/bs";
+import { FaBuilding } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 
 interface ExperienceItemProps {
@@ -97,12 +97,12 @@ const Experience = () => {
       location: "Muñoz, Nueva Ecija (Onsite)",
       skills: "Next.js, React, MongoDB, Laravel, MySQL",
       responsibilities: [
-        "Developed a weather data visualization application that streamlines access to PAGASA&apos;s forecast data across 1,619 municipalities",
+        "Developed a weather data visualization application that streamlines access to PAGASA's forecast data across 1,619 municipalities",
         "Optimized data handling of over 16,000 daily weather records (temperature, humidity, wind, rainfall) using MongoDB",
         "Built an interactive Philippines map with Leaflet.js to visualize municipality-level weather information",
         "Implemented comprehensive historical data analysis tools with custom date range queries and export functionality",
         "Developed an admin page with configurable rule-based recommendation system for 10-day forecast data",
-        "Automated data retrieval with cron jobs to synchronize with PAGASA&apos;s bi-weekly forecast updates",
+        "Automated data retrieval with cron jobs to synchronize with PAGASA's bi-weekly forecast updates",
       ],
       year: 2025,
     },

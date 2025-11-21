@@ -24,7 +24,9 @@ const Stack = () => {
     <section className="py-16 glass" id="stack">
       <div className="max-w-[1200px] mx-auto px-4 text-center">
         <h2 className="text-5xl text-gray-200 font-bold mb-4">My Tech Stack</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+        
+        {/* UPDATED GRID: grid-cols-2 for mobile, scaling up for larger screens */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
           {stackItems.map((item) => (
             <div
               key={item.id}
@@ -32,7 +34,8 @@ const Stack = () => {
             >
               <div className="mb-4 bg-white/10 p-6 rounded-xl">
                 {React.createElement(item.icon, {
-                  className: "w-32 h-32",
+                  // UPDATED SIZING: w-16 h-16 (64px) on mobile, w-32 h-32 (128px) on md screens and up
+                  className: "w-16 h-16 md:w-32 md:h-32 transform transition-transform duration-300 hover:scale-110",
                   style: { color: item.color },
                 })}
               </div>
