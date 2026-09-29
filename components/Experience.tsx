@@ -4,6 +4,20 @@ import { Calendar, MapPin } from "lucide-react";
 
 const experiences = [
     {
+    title: "ServiceNow Consultant",
+    company: "Indra Philippines",
+    date: "Jan. 2026 – Present",
+    location: "Ortigas Avenue, Pasig City (Hybrid)",
+    skills: "ServiceNow, JavaScript",
+    responsibilities: [
+      "Participated in client discovery sessions and requirements-gathering activities to gain an understanding of business processes and system requirements",
+      "Supported the integration of ServiceNow and SAP using SAP BTP as middleware",
+      "Assisted in the development and configuration of IT Asset Management (ITAM) modules",
+      "Participated in unit and integration testing involving ServiceNow and SAP",
+    ],
+    year: 2026,
+  },
+  {
     title: "Full Stack Developer",
     company: "Leads Agricultural Products Corporation",
     date: "Jul. 2025 – Dec. 2025",
